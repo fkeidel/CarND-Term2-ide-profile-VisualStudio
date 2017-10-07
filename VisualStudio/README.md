@@ -19,7 +19,11 @@ _if you use Power Shell add .\\ before a batch name (bootstrap-vcpkg.bat -> .\\b
 * cd vcpkg
 * call bootstrap-vcpkg.bat
 
-4. Adapt and call the install script for windows
+4. Download ide profile
+* Download zip of this repository and unpack content
+* copy the VisualStudio directory to your project's ide_profiles directory.
+
+5. Adapt and call the install script for windows
 * cd to directory ide_profiles\\VisualStudio
 * Open install-windows.bat and adjust lines 5 to 7 to the settings you will use when building your Visual Studio project (platform, toolset, buildtype)
 * You could also pass these settings as command line arguments to install-windows.bat
@@ -31,11 +35,11 @@ _if you use Power Shell add .\\ before a batch name (bootstrap-vcpkg.bat -> .\\b
 *** it will download the latest version of uWebSockets
 ** copy a customized main.cpp from  ide_profile\\VisualStudio to the project src folder.
 
-5. Open solution and adapt toolset settings
+6. Open solution and adapt toolset settings
 * Open CarND-Extended-Kalman-Filter-Project.sln
 * Open project properties
 * Adapt target platform version and platform toolset (use the same setting that you used in the install script)
 
-6. Build project in Visual Studio
+7. Build project in Visual Studio
 * Build the project for the platform and buildtype you used in the install script
 

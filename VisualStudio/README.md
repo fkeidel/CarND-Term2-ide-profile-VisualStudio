@@ -1,5 +1,4 @@
 # CarND-Term2-ide-profile-VisualStudio
-Visual Studio solution/project and install script to download and install uWebSocket on Windows natively, without need to use Ubuntu Bash.
 
 Perform these steps to setup your Visual Studio project for SDCND term 2:\
 _if you use Power Shell add .\\ before a batch name (bootstrap-vcpkg.bat -> .\\bootstrap-vcpkg.bat)_

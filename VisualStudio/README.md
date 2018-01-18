@@ -29,10 +29,10 @@ _if you use Power Shell add .\\ before a batch name (bootstrap-vcpkg.bat -> .\\b
 * If you have more than one toolset installed, comment line 14 and uncomment line 15
 * call install-windows.bat
 * the install scipt will
-** set the build parameters for the libraries to install (platform, toolset, buildtype)
-** use vcpkg to download, build and install uWebSockets
-*** it will download the latest version of uWebSockets
-** copy a customized main.cpp from  ide_profile\\VisualStudio to the project src folder.
+  * set the build parameters for the libraries to install (platform, toolset, buildtype)
+  * use vcpkg to download, build and install uWebSockets
+    * it will download the latest version of uWebSockets
+  * copy a customized main.cpp from  ide_profile\\VisualStudio to the project src folder.
 
 6. Open solution and adapt toolset settings
 * Open CarND-Extended-Kalman-Filter-Project.sln
